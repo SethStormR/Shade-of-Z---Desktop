@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=ShadeZ-Light
+Comment=TFork of Zorin OS Desktop Theme.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=ShadeZ-Light
+MetacityTheme=ShadeZ-Light
+IconTheme=Shade of Z - Black
+CursorTheme=Adwaita
+ButtonLayout=:minimize,maximize,close
