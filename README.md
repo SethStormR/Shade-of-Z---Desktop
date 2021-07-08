@@ -6,4 +6,6 @@ This is a fork of Zorin OS Desktop theme(s) and is modified by me. It adds opaci
 
 ![Nautilus](https://user-images.githubusercontent.com/60283532/124838815-e629a500-df87-11eb-8eba-3cf03f9ee2af.png)
 
+![Taskbar](https://user-images.githubusercontent.com/60283532/124871364-40485b80-dfc4-11eb-9325-11b98b1664fe.png)
+
 
