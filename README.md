@@ -10,3 +10,8 @@ XFCE is now supported (Aimed for Lite version of Zorin OS 16 when it gets releas
 ![Taskbar](https://user-images.githubusercontent.com/60283532/124871364-40485b80-dfc4-11eb-9325-11b98b1664fe.png)
 
 
+This is a test of blur version:
+![Screenshot from 2021-07-13 16-15-00](https://user-images.githubusercontent.com/60283532/125468218-50f44d69-9ae9-4432-86c5-c6424bede484.png)
+
+
+
