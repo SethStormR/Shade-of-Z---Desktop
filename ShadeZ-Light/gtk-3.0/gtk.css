@@ -771,7 +771,7 @@ menubar .csd.popup decoration, .menubar .csd.popup decoration { border-radius: 0
 
 .background.popup { background-color: transparent; }
 
-menu, .menu, .context-menu { margin: 8px; padding: 8px 0px; background-color: rgba ( 250, 250, 250, 0.8); border: 1px solid rgba(232, 232, 232, 0.75); }
+menu, .menu, .context-menu { margin: 8px; padding: 8px 0px; background-color: rgba ( 240, 240, 240, 0.8); border: 1px solid rgba(232, 232, 232, 0.75); }
 
 .csd menu, .csd .menu, .csd .context-menu { border: none; border-radius: 8px; background-color: rgba ( 240, 240, 240, 0.8); }
 
@@ -1971,7 +1971,7 @@ window.background:not(.solid-csd) > notebook:not(.frame) tab { margin-bottom: 4p
 
 .nautilus-window .floating-bar button { padding: 0; }
 
-.nautilus-window .nautilus-list-view { background-color: white; border-radius: 0 0 10px 10px; }
+.nautilus-window .nautilus-list-view { background-image: url("assets/Zorin_OS.png"); border-radius: 0 0 10px 10px; }
 
 .nautilus-window .nautilus-list-view treeview.view:not(:hover):not(:active):not(:selected) { background-color: transparent; border-radius: 0; }
 
