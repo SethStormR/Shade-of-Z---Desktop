@@ -1970,7 +1970,7 @@ window.background:not(.solid-csd) > notebook:not(.frame) tab { margin-bottom: 4p
 
 .nautilus-window .floating-bar button { padding: 0; }
 
-.nautilus-window .nautilus-list-view { background-color: white; border-radius: 0 0 10px 10px; }
+.nautilus-window .nautilus-list-view { background-image: url("assets/Zorin_OS.png"; border-radius: 0 0 10px 10px; }
 
 .nautilus-window .nautilus-list-view treeview.view:not(:hover):not(:active):not(:selected) { background-color: transparent; border-radius: 0; }
 
