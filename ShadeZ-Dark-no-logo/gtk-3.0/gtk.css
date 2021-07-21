@@ -1961,6 +1961,10 @@ window.background:not(.solid-csd) > notebook:not(.frame) tab { margin-bottom: 4p
 
 /************ Nautilus * */
 
+.nautilus-window popover.background {
+background-color: rgba( 20, 20, 20, 0.9);
+}
+
 .nautilus-window .floating-bar { min-height: 32px; padding: 0; border-radius: 10px 10px 0 0; background-color: #191919; background-clip: padding-box; }
 
 .nautilus-window .floating-bar.bottom.left { margin-right: 7px; border-top-left-radius: 0; border-bottom-left-radius: 10px; }
