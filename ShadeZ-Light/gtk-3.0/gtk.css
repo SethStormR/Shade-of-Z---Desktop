@@ -4,13 +4,13 @@
 * { padding: 0; -GtkToolButton-icon-spacing: 4; -GtkTextView-error-underline-color: #fa4444; -GtkScrolledWindow-scrollbar-spacing: 0; -GtkToolItemGroup-expander-size: 11; -GtkWidget-text-handle-width: 20; -GtkWidget-text-handle-height: 24; -GtkDialog-button-spacing: 4; -GtkDialog-action-area-border: 0; outline-color: alpha(currentColor,0.3); outline-style: dashed; outline-offset: -3px; outline-width: 1px; -gtk-outline-radius: 8px; -gtk-secondary-caret-color: #606264; }
 
 /*************** Base States * */
-.background { color: #29292a; background-color: rgba ( 240, 240, 240, 0.8); }
+.background { color: #29292a; background-color: rgba( 240, 240, 240, 0.8); }
 
 .background.csd { border-radius: 0 0 10px 10px; }
 
 .background.maximized, .background.solid-csd, .background.fullscreen, .background.tiled, .background.tiled-top, .background.tiled-right, .background.tiled-bottom, .background.tiled-left { border-radius: 0; }
 
-.background:backdrop { color: #7c7c7c; background-color: rgba ( 240, 240, 240, 0.8); text-shadow: none; -gtk-icon-shadow: none; }
+.background:backdrop { color: #7c7c7c; background-color: rgba( 240, 240, 240, 0.8); text-shadow: none; -gtk-icon-shadow: none; }
 
 /* These wildcard seems unavoidable, need to investigate. Wildcards are bad and troublesome, use them with care, or better, just don't. Everytime a wildcard is used a kitten dies, painfully. */
 *:disabled { -gtk-icon-effect: dim; }
@@ -1961,6 +1961,11 @@ toolbutton > button.image-button.text-button.flat button:active, toolbutton > bu
 window.background:not(.solid-csd) > notebook:not(.frame) tab { margin-bottom: 4px; }
 
 /************ Nautilus * */
+
+.nautilus-window popover.background {
+background-color: rgba( 240, 240, 240, 0.8);
+}
+
 .nautilus-window { background-image: url("assets/Zorin_OS.png"); background-position: right top;}
 
 .nautilus-window .floating-bar { min-height: 32px; padding: 0; border-radius: 10px 10px 0 0; background-color: white; background-clip: padding-box; }
